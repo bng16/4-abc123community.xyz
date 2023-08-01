@@ -1,0 +1,249 @@
+@font-face {
+    font-family: GlueDisplay;
+    src: url(/asset/fonts/GlueDisplay-Filled.otf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    
+}
+
+#main{
+    /* background-color: antiquewhite; */
+    width: 100%;
+    position: relative;
+}
+
+#top-bg-pic{
+    width: 100vw;
+    position:absolute;
+    top: 0;
+    z-index: -1;
+}
+
+/* NAV>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 9vw;
+    padding-top:9vh ;
+}
+
+#nav-socials{
+    display:flex ;
+    gap: 1vw;
+}
+
+nav img{
+    height: 3.5vw;
+}
+
+
+/* section1>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#section1{
+    height: 40vh;
+    /* background-color: red; */
+    margin: 8vw;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#section1 h1{
+    font-family: GlueDisplay;
+    font-size: 10vw;
+    color:#fff;
+    -webkit-text-stroke:2px #000;
+}
+
+#section1 img{
+    width: 35vw;
+}
+
+/* section2 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#section2{
+    height: 40vh;
+    /* background-color: red; */
+    margin: 10vw 15vw 0 15vw;
+
+    display: flex;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+#s2-img1{
+    width: 13vw;
+}
+
+#s2-img2{
+    width: 9vw;
+}
+
+#s2-img3{
+    /* width: 30vw; */
+    height: 28vw;
+    position: relative;
+    top: -40%;
+
+    transform: rotate(-15deg);
+    
+}
+
+
+/* section3 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+#section3{
+    height: 40vh;
+    /* background-color: red; */
+    margin: 8vw 18vw 0 18vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+
+#s3-img1{
+    /* width: 30vw; */
+    height: 29vw;
+    position: relative;
+    top: -10%;
+
+    transform: rotate(15deg);
+    
+}
+
+
+#s3-gif1{
+    position: relative;
+    top: -18%;
+    /* background-color: blue; */
+    width: 10vw;
+}
+
+#s3-img2{
+    position: relative;
+    bottom: -20%;
+    width: 15vw;
+}
+
+
+
+/* section4 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+
+#section4{
+    height: 40vh;
+    /* background-color: red; */
+    margin: 8vw 18vw 0 7vw;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    position: relative;
+}
+
+#s4-gif1{
+    position: relative;
+    top: -18%;
+    /* background-color: blue; */
+    width: 10vw;
+}
+
+#s4-img1{
+    position: relative;
+    bottom: -20%;
+    width: 20vw;
+}
+
+
+#s4-img2{
+    /* width: 30vw; */
+    height: 29vw;
+    position: relative;
+    top: -10%;
+
+    transform: rotate(-15deg);
+    
+}
+
+
+/* section5 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+#section5{
+    height: 40vh;
+    /* background-color: red; */
+    margin: 10vw 18vw 0 18vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vw;
+
+    position: relative;
+}
+
+#s5-bot{
+    display: flex;
+    /* gap: 3vw; */
+    max-width: 60VW;
+    gap: 6vw;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+.s5-brand-logo{
+    width: 11vw;
+    transition: 0.25s;
+
+}
+
+
+.s5-brand-logo:hover{
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#extra{
+    height: 100vh;
+    background-color: antiquewhite;
+}
